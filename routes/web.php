@@ -11,6 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+// Rutas de Autenticación
+Route::get('/', 'Auth\LoginController@showLoginForm')->name('login');
+Auth::routes();
+
+// Ruta Inicio - Escritorio
+Route::get('/home', 'HomeController@index')->name('home');
+
+// Rutas en Modulo Archivos
+Route::view('archivos/home', 'archivos.home')->name('archivos.home');
+
+// Rutas en Modulo Archivos / Inventarios
+Route::get('archivos/inventarios', 'Archivos\InventariosController@show')->name('inventarios.inicio');
+
+
+
+
