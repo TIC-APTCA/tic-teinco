@@ -17,7 +17,7 @@
 					<li class="nav-title">MODULOS</li>
 					<li class="nav-item nav-dropdown">
 						<a class="nav-link nav-dropdown-toggle" href="#"> 
-							<i class="nav-icon icon-drop"></i> Archivos
+							<i class="nav-icon fa fa-archive"></i> Archivos
 						</a>
 						<ul class="nav-dropdown-items">
 							<li class="nav-item">
@@ -31,7 +31,7 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#"> 
+								<a class="nav-link" href="{{ route('inventarios.inicio') }}"> 
 									<i class="nav-icon"></i> Inventario TIC
 								</a>
 							</li>
@@ -44,7 +44,7 @@
 					</li>
 					<li class="nav-item nav-dropdown">
 						<a class="nav-link nav-dropdown-toggle" href="#"> 
-							<i class="nav-icon icon-drop"></i> Soporte Tec. y Serv.
+							<i class="nav-icon fa fa-laptop"></i> Soporte Tec. y Serv.
 						</a>
 						<ul class="nav-dropdown-items">
 							<li class="nav-item">
@@ -56,7 +56,7 @@
 					</li>
 					<li class="nav-item nav-dropdown">
 						<a class="nav-link nav-dropdown-toggle" href="#"> 
-							<i class="nav-icon icon-drop"></i> Procedimientos
+							<i class="nav-icon fa fa-folder"></i> Procedimientos
 						</a>
 						<ul class="nav-dropdown-items">
 							<li class="nav-item">
@@ -78,13 +78,12 @@
 					</li>
 					<li class="nav-item nav-dropdown">
 						<a class="nav-link nav-dropdown-toggle" href="#"> 
-							<i class="nav-icon icon-drop"></i> Reportes
+							<i class="nav-icon fa fa-pie-chart"></i> Reportes
 						</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#"> 
 							<i class="nav-icon fa fa-gears"></i> Configuracion 
-							<span class="badge badge-primary">NEW</span>
 						</a>
 					</li>
 					<li class="nav-item nav-dropdown">

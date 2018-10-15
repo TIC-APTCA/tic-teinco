@@ -1,4 +1,4 @@
-@extends('layouts.app_archivos')
+@extends('layouts.app_marco')
 
 @section('content')
 <ol class="breadcrumb">

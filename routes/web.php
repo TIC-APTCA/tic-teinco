@@ -13,6 +13,8 @@
 
 // Rutas de Autenticación
 Route::get('/', 'Auth\LoginController@showLoginForm')->name('login');
+Route::get('logout', 'Auth\LoginController@logout')->name('logout');
+
 Auth::routes();
 
 // Ruta Inicio - Escritorio

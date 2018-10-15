@@ -1,11 +1,11 @@
-@extends('layouts.app_archivos')
+@extends('layouts.app_marco')
 
 @section('content')
 
 <ol class="breadcrumb">
 	<li class="breadcrumb-item"><a href="{{ route('home') }}">Inicio</a></li>
 	<li class="breadcrumb-item"><a href="{{ route('archivos.home') }}">Archivos</a></li>
-	<li class="breadcrumb-item active">Inventarios</li>
+	<li class="breadcrumb-item active">Inventario TIC</li>
 </ol>
 
 <div class="container">
